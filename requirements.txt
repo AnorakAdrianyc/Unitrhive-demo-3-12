@@ -1,0 +1,28 @@
+# UniThrive Prototype - Python Dependencies
+# FastAPI and web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Data validation and serialization
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Date and time handling
+python-dateutil>=2.8.2
+
+# HTTP client for external API calls (future use)
+httpx>=0.25.0
+
+# Data processing
+numpy>=1.26.0
+
+# Type hints and utilities
+typing-extensions>=4.8.0
+
+# CORS middleware
+starlette>=0.27.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
