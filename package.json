@@ -1,0 +1,8 @@
+{
+  "name": "unithrive-demo",
+  "private": true,
+  "description": "Root package to enable Node.js build on Vercel",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  }
+}

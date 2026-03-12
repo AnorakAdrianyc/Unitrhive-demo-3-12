@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npm run build --prefix frontend",
+  "buildCommand": "npm run build",
   "outputDirectory": "frontend/dist",
+  "framework": null,
   "rewrites": [
     {
       "source": "/api/(.*)",
